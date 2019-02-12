@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-02-12 06:58:37">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automation of Catalog Item's variable creation &amp; variable set variable creation</description>
+<inserted/>
+<name>Catalog Variable Creation</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>80e76146db63230093a99d62ba961979</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>7a182946db63230093a99d62ba961906</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_variable_creation_u_catalog_item_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_catalog_item" label="Catalog item" language="en" table="u_variable_creation"><sys_documentation action="INSERT_OR_UPDATE"><element>u_catalog_item</element><help/><hint/><label>Catalog item</label><language>en</language><name>u_variable_creation</name><plural>Catalog items</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>23cd0906db23230093a99d62ba961984</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Catalog item</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_documentation_u_variable_creation_u_catalog_item_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1334383534</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>32182946db63230093a99d62ba96190a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32cd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Catalog item</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_84cf59cedb23230093a99d62ba961952</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Variable or variable set transform map"&gt;7f8f59cedb23230093a99d62ba96198c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_question&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 06:22:05&lt;/sys_created_on&gt;&lt;sys_id&gt;84cf59cedb23230093a99d62ba961952&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_question&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_84cf59cedb23230093a99d62ba961952&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 06:22:05&lt;/sys_updated_on&gt;&lt;target_field&gt;question_text&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1699628726</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>32182946db63230093a99d62ba96190d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33890000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_question</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>c0cf59ce29232300d0ae11bed2148753</update_guid>
+<update_guid_history>c0cf59ce29232300d0ae11bed2148753:1699628726</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_variable_creation_u_question</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_question" table="u_variable_creation"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=Question</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Question</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_question</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_variable_creation</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>afcd0906db23230093a99d62ba961982</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Question</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_dictionary_u_variable_creation_u_question</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1015889905</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>36182946db63230093a99d62ba961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32af0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Question</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>37cd0906a82323006a01fc32d1b31293</update_guid>
+<update_guid_history>37cd0906a82323006a01fc32d1b31293:-1015889905</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_3fbf59cedb23230093a99d62ba96194e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Variable or variable set transform map"&gt;7f8f59cedb23230093a99d62ba96198c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_layout&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 06:22:05&lt;/sys_created_on&gt;&lt;sys_id&gt;3fbf59cedb23230093a99d62ba96194e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_layout&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_3fbf59cedb23230093a99d62ba96194e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 06:22:05&lt;/sys_updated_on&gt;&lt;target_field&gt;layout&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-286128506</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>36182946db63230093a99d62ba96190c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33690000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_layout</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>00cf59ce2b232300ae04836410c9aa50</update_guid>
+<update_guid_history>00cf59ce2b232300ae04836410c9aa50:-286128506</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_3b09c542db23230093a99d62ba9619ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>catalog_variable_creation_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 04:42:57</sys_created_on><sys_id>3b09c542db23230093a99d62ba9619ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>catalog_variable_creation_user</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_user_role_3b09c542db23230093a99d62ba9619ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 04:42:57</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-505611055</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>36182946db63230093a99d62ba96190f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32450000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>catalog_variable_creation_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>3b09c54280232300a9ab1bb75cbf0df0</update_guid>
+<update_guid_history>3b09c54280232300a9ab1bb75cbf0df0:-1648087207</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_variable_creation_u_catalog_item</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_catalog_item" table="u_variable_creation"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=Catalog item</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Catalog item</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_catalog_item</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_variable_creation</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>6fcd0906db23230093a99d62ba961983</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Catalog item</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_dictionary_u_variable_creation_u_catalog_item</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1884595907</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>3a182946db63230093a99d62ba961908</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f329c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Catalog item</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>37cd0906ae2323002352132df23b6594</update_guid>
+<update_guid_history>37cd0906ae2323002352132df23b6594:-1884595907</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_embedded_help_role_9e6addcadb23230093a99d62ba9619d4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role"><sys_embedded_help_role action="INSERT_OR_UPDATE"><order>1000</order><role display_value="catalog_item_creation_user" name="catalog_item_creation_user">126addcadb23230093a99d62ba9619d3</role><sys_class_name>sys_embedded_help_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:58:46</sys_created_on><sys_id>9e6addcadb23230093a99d62ba9619d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>126addcadb23230093a99d62ba9619d3</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_embedded_help_role_9e6addcadb23230093a99d62ba9619d4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:58:46</sys_updated_on></sys_embedded_help_role></record_update>]]></payload>
+<payload_hash>-1369077196</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>3a182946db63230093a99d62ba96190b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33470000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>126addcadb23230093a99d62ba9619d3</target_name>
+<type>Embedded Help Role Priority</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_map_230b0d82db23230093a99d62ba9619e2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="DELETE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Variable Creation&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 04:52:23&lt;/sys_created_on&gt;&lt;sys_id&gt;230b0d82db23230093a99d62ba9619e2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Variable Creation&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_230b0d82db23230093a99d62ba9619e2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 04:52:23&lt;/sys_updated_on&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2125624779</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>3a182946db63230093a99d62ba96190e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f333c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>Variable Creation</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>8a0f0d06d8232300958018ff0709b84b</update_guid>
+<update_guid_history>8a0f0d06d8232300958018ff0709b84b:2125624779,713b0d82b02323000eccd153aa6afbf4:-1594923969</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_data_source_5f8a8582db23230093a99d62ba96199a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source"><sys_data_source action="INSERT_OR_UPDATE"><category/><connection_timeout>0</connection_timeout><connection_url>attachment://sys_data_source:5f8a8582db23230093a99d62ba96199a/</connection_url><connection_url_parameters/><csv_delimiter/><database_name/><database_port/><expand_node_children>false</expand_node_children><file_path/><file_retrieval_method>Attachment</file_retrieval_method><format>Excel</format><glide_keystore>false</glide_keystore><header_row>0</header_row><import_set_table_label>Variable Creation</import_set_table_label><import_set_table_name>u_variable_creation</import_set_table_name><instance_name/><jdbc_password/><jdbc_server/><jdbc_user_name/><jpath_root_node/><last_run_database_field/><last_run_datetime/><ldap_target/><maximum_rows/><mid_server/><name>Variable Creation</name><oracle_port>1521</oracle_port><oracle_sid>orcl</oracle_sid><properties/><query>All Rows from Table</query><query_timeout>0</query_timeout><scp_authentication>Username and Password</scp_authentication><scp_password/><scp_port/><scp_server/><scp_user_name/><sheet_number>0</sheet_number><sql_statement/><ssh_keyfile_path/><sys_class_name>sys_data_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 04:49:59</sys_created_on><sys_id>5f8a8582db23230093a99d62ba96199a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Variable Creation</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_data_source_5f8a8582db23230093a99d62ba96199a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 04:51:26</sys_updated_on><table_name/><type>File</type><use_integrated_authentication>false</use_integrated_authentication><use_last_run_datetime>false</use_last_run_datetime><xpath_root_node/><zipped>false</zipped></sys_data_source></record_update>]]></payload>
+<payload_hash>-1207764190</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>3e182946db63230093a99d62ba961907</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f324d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>Variable Creation</target_name>
+<type>Data Source</type>
+<update_domain>global</update_domain>
+<update_guid>b7fa49823c23230022c5e329e5921123</update_guid>
+<update_guid_history>b7fa49823c23230022c5e329e5921123:-1207764190,3eaa8d023d232300c1de368e7a1b4552:-48667894</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_variable_creation_u_question_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_question" label="Question" language="en" table="u_variable_creation"><sys_documentation action="INSERT_OR_UPDATE"><element>u_question</element><help/><hint/><label>Question</label><language>en</language><name>u_variable_creation</name><plural>Questions</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>63cd0906db23230093a99d62ba961983</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Question</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_documentation_u_variable_creation_u_question_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-916387674</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>3e182946db63230093a99d62ba96190a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f326a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Question</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_c4cfd9cedb23230093a99d62ba96197d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Variable or variable set transform map"&gt;7f8f59cedb23230093a99d62ba96198c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_order&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 06:22:05&lt;/sys_created_on&gt;&lt;sys_id&gt;c4cfd9cedb23230093a99d62ba96197d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_order&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_c4cfd9cedb23230093a99d62ba96197d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 06:22:05&lt;/sys_updated_on&gt;&lt;target_field&gt;order&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1978883526</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>3e182946db63230093a99d62ba96190d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f337a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_order</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>04cfd9ceba232300f089da224a96687e</update_guid>
+<update_guid_history>04cfd9ceba232300f089da224a96687e:1978883526</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_variable_creation_u_order</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_order" table="u_variable_creation"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>import_attribute_name=Order</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Order</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_order</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_variable_creation</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>ebcd0906db23230093a99d62ba96197e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Order</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_dictionary_u_variable_creation_u_order</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1521288771</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>72182946db63230093a99d62ba961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32e50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Order</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b3cd0906e323230066e3d68f3f82e58f</update_guid>
+<update_guid_history>b3cd0906e323230066e3d68f3f82e58f:1521288771</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_0ccfd9cedb23230093a99d62ba961978</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Variable or variable set transform map"&gt;7f8f59cedb23230093a99d62ba96198c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_active&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 06:22:05&lt;/sys_created_on&gt;&lt;sys_id&gt;0ccfd9cedb23230093a99d62ba961978&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_active&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_0ccfd9cedb23230093a99d62ba961978&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 06:22:05&lt;/sys_updated_on&gt;&lt;target_field&gt;active&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2112333342</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>72182946db63230093a99d62ba96190c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33810000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_active</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>48cfd9ced3232300d216c5fac4916879</update_guid>
+<update_guid_history>48cfd9ced3232300d216c5fac4916879:-2112333342</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_variable_creation_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_variable_creation" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_import_row</element><list_id display_value="u_variable_creation" element="NULL" name="u_variable_creation" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbcd0906db23230093a99d62ba9619b4</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:43</sys_created_on><sys_id>3bcd0906db23230093a99d62ba9619b5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:43</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_import_set</element><list_id display_value="u_variable_creation" element="NULL" name="u_variable_creation" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbcd0906db23230093a99d62ba9619b4</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:43</sys_created_on><sys_id>33cd0906db23230093a99d62ba9619b6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:43</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_import_state</element><list_id display_value="u_variable_creation" element="NULL" name="u_variable_creation" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbcd0906db23230093a99d62ba9619b4</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:43</sys_created_on><sys_id>b3cd0906db23230093a99d62ba9619b6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:43</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_target_table</element><list_id display_value="u_variable_creation" element="NULL" name="u_variable_creation" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbcd0906db23230093a99d62ba9619b4</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:43</sys_created_on><sys_id>37cd0906db23230093a99d62ba9619b6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:43</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_target_sys_id</element><list_id display_value="u_variable_creation" element="NULL" name="u_variable_creation" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbcd0906db23230093a99d62ba9619b4</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:43</sys_created_on><sys_id>b7cd0906db23230093a99d62ba9619b6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:43</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_row_error</element><list_id display_value="u_variable_creation" element="NULL" name="u_variable_creation" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbcd0906db23230093a99d62ba9619b4</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:43</sys_created_on><sys_id>3bcd0906db23230093a99d62ba9619b6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:43</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_variable_creation</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bbcd0906db23230093a99d62ba9619b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_variable_creation</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_ui_list_u_variable_creation_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:43</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-1592637048</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>72182946db63230093a99d62ba96190f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33260000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_variable_creation_u_active</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_active" table="u_variable_creation"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=Active</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Active</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_active</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_variable_creation</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>63cd0906db23230093a99d62ba961980</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_dictionary_u_variable_creation_u_active</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1611189457</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>76182946db63230093a99d62ba961908</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f325a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Active</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>37cd0906d72323001651061431e76590</update_guid>
+<update_guid_history>37cd0906d72323001651061431e76590:-1611189457</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_variable_creation__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Variable Creation" language="en" table="u_variable_creation"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Variable Creation</label><language>en</language><name>u_variable_creation</name><plural>Variable Creations</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>e3cd0906db23230093a99d62ba96197d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Variable Creation</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_documentation_u_variable_creation__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>783702408</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>76182946db63230093a99d62ba96190b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32fe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_cccf59cedb23230093a99d62ba961953</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Variable or variable set transform map"&gt;7f8f59cedb23230093a99d62ba96198c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_catalog_item&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 06:22:05&lt;/sys_created_on&gt;&lt;sys_id&gt;cccf59cedb23230093a99d62ba961953&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_catalog_item&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_cccf59cedb23230093a99d62ba961953&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 06:22:05&lt;/sys_updated_on&gt;&lt;target_field&gt;cat_item&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1281286414</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>76182946db63230093a99d62ba96190e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33720000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_catalog_item</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>0ccf59ce0d2323001aaf44a313f51b54</update_guid>
+<update_guid_history>0ccf59ce0d2323001aaf44a313f51b54:-1281286414</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_7fcd0906db23230093a99d62ba9619d4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Variable Creation</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_variable_creation</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7fcd0906db23230093a99d62ba9619d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Variable Creation</sys_name><sys_overrides/><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_app_module_7fcd0906db23230093a99d62ba9619d4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:43</sys_updated_on><timeline_page/><title>Variable Creation</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-942231191</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>7a182946db63230093a99d62ba961907</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f332f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>77cd09069e2323002530c9de4e1cddd6</update_guid>
+<update_guid_history>77cd09069e2323002530c9de4e1cddd6:-942231191</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_variable_creation_u_order_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_order" label="Order" language="en" table="u_variable_creation"><sys_documentation action="INSERT_OR_UPDATE"><element>u_order</element><help/><hint/><label>Order</label><language>en</language><name>u_variable_creation</name><plural>Orders</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>67cd0906db23230093a99d62ba96197f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Order</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_documentation_u_variable_creation_u_order_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-6581362</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>7a182946db63230093a99d62ba96190a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32920000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Order</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_8ddec906db23230093a99d62ba961927</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="DELETE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value=""&gt;8eed8906db23230093a99d62ba961901&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_question&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 05:08:10&lt;/sys_created_on&gt;&lt;sys_id&gt;8ddec906db23230093a99d62ba961927&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_question&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_8ddec906db23230093a99d62ba961927&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 05:08:10&lt;/sys_updated_on&gt;&lt;target_field&gt;question_text&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>409853019</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>7a182946db63230093a99d62ba96190d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33bb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_question</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>f6f66906bf632300fdf8a9b7675fbced</update_guid>
+<update_guid_history>f6f66906bf632300fdf8a9b7675fbced:409853019,49dec9060c232300c0ecf32915f54128:1919967808</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_variable_creation_u_active_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_active" label="Active" language="en" table="u_variable_creation"><sys_documentation action="INSERT_OR_UPDATE"><element>u_active</element><help/><hint/><label>Active</label><language>en</language><name>u_variable_creation</name><plural>Active</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>27cd0906db23230093a99d62ba961980</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_documentation_u_variable_creation_u_active_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-501944911</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>7e182946db63230093a99d62ba961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32c40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Active</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_4ccf59cedb23230093a99d62ba961950</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Variable or variable set transform map"&gt;7f8f59cedb23230093a99d62ba96198c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_name&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 06:22:05&lt;/sys_created_on&gt;&lt;sys_id&gt;4ccf59cedb23230093a99d62ba961950&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_name&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_4ccf59cedb23230093a99d62ba961950&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 06:22:05&lt;/sys_updated_on&gt;&lt;target_field&gt;name&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1706142279</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>7e182946db63230093a99d62ba96190c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33980000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_name</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>88cf59ce602323008310d27ec6cd5e51</update_guid>
+<update_guid_history>88cf59ce602323008310d27ec6cd5e51:1706142279</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_variable_creation_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="u_variable_creation"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_variable_creation</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>63cdc506db23230093a99d62ba96196a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_variable_creation</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_dictionary_u_variable_creation_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-246542685</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>b2182946db63230093a99d62ba961908</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f328a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7fcd0906e4232300c7b870ff4dfba08c</update_guid>
+<update_guid_history>7fcd0906e4232300c7b870ff4dfba08c:-246542685</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_variable_creation_u_variable_set_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_variable_set" label="Variable Set" language="en" table="u_variable_creation"><sys_documentation action="INSERT_OR_UPDATE"><element>u_variable_set</element><help/><hint/><label>Variable Set</label><language>en</language><name>u_variable_creation</name><plural>Variable Sets</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 06:21:05</sys_created_on><sys_id>c58f19cedb23230093a99d62ba9619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Variable Set</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_documentation_u_variable_creation_u_variable_set_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 06:21:05</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>189429942</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>b2182946db63230093a99d62ba96190b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f335a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Variable Set</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_c5dec906db23230093a99d62ba961926</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="DELETE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value=""&gt;8eed8906db23230093a99d62ba961901&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_name&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 05:08:10&lt;/sys_created_on&gt;&lt;sys_id&gt;c5dec906db23230093a99d62ba961926&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_name&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_c5dec906db23230093a99d62ba961926&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 05:08:10&lt;/sys_updated_on&gt;&lt;target_field&gt;name&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>954147330</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>b2182946db63230093a99d62ba96190e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33ef0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_name</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>fef669065a632300df44caa75e1f49f2</update_guid>
+<update_guid_history>fef669065a632300df44caa75e1f49f2:954147330,81dec9069223230013a929c8d2f1d127:1467097469</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_ab09c542db23230093a99d62ba9619ea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category/><description/><device_type>browser</device_type><hint/><name>Catalog Variable Creation</name><order/><roles>catalog_variable_creation_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 04:42:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ab09c542db23230093a99d62ba9619ea</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Catalog Variable Creation</sys_name><sys_overrides/><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_app_application_ab09c542db23230093a99d62ba9619ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 04:42:57</sys_updated_on><title>Catalog Variable Creation</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>1217002146</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>b6182946db63230093a99d62ba961907</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f323c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>Catalog Variable Creation</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>7709094269232300be9017127c545929</update_guid>
+<update_guid_history>7709094269232300be9017127c545929:1217002146,b309c5428d232300932524dd6a2947ec:2143186341</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_variable_creation_u_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_name" label="Name" language="en" table="u_variable_creation"><sys_documentation action="INSERT_OR_UPDATE"><element>u_name</element><help/><hint/><label>Name</label><language>en</language><name>u_variable_creation</name><plural>Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>efcd0906db23230093a99d62ba961984</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Name</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_documentation_u_variable_creation_u_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-451022096</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>b6182946db63230093a99d62ba96190a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32a50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_8dde8146db23230093a99d62ba9619d7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="DELETE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value=""&gt;8eed8906db23230093a99d62ba961901&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_type&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 05:08:10&lt;/sys_created_on&gt;&lt;sys_id&gt;8dde8146db23230093a99d62ba9619d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_type&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_8dde8146db23230093a99d62ba9619d7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 05:08:10&lt;/sys_updated_on&gt;&lt;target_field&gt;type&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>742279377</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>b6182946db63230093a99d62ba96190d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33c20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_type</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>faf66906bd63230019b2ebe836be15ea</update_guid>
+<update_guid_history>faf66906bd63230019b2ebe836be15ea:742279377,49de8146c92323006214db9e175998d8:1255229516</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_variable_creation_u_variable_set</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_variable_set" table="u_variable_creation"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Variable Set</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_variable_set</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_variable_creation</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 06:21:05</sys_created_on><sys_id>818f19cedb23230093a99d62ba9619cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Variable Set</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_dictionary_u_variable_creation_u_variable_set</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 06:21:05</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1227009058</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>ba182946db63230093a99d62ba961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Variable Set</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>018f19ce8f232300d80393f874a14fd8</update_guid>
+<update_guid_history>018f19ce8f232300d80393f874a14fd8:1227009058</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_49dec906db23230093a99d62ba961923</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="DELETE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value=""&gt;8eed8906db23230093a99d62ba961901&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_active&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 05:08:10&lt;/sys_created_on&gt;&lt;sys_id&gt;49dec906db23230093a99d62ba961923&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_active&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_49dec906db23230093a99d62ba961923&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 05:08:10&lt;/sys_updated_on&gt;&lt;target_field&gt;active&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>691919197</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>ba182946db63230093a99d62ba96190c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33ca0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_active</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>fef66906fd632300f8beed8d6f3bf6e7</update_guid>
+<update_guid_history>fef66906fd632300f8beed8d6f3bf6e7:691919197,05dec906502323003350fb19873b0c24:1374949528</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_6b09c902db23230093a99d62ba9619ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>false</can_edit_in_studio><enforce_license>none</enforce_license><js_level>helsinki_es5</js_level><licensable>true</licensable><license_category>none</license_category><license_model>none</license_model><logo/><menu display_value="Catalog Variable Creation">ab09c542db23230093a99d62ba9619ea</menu><name>Catalog Variable Creation</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>global</scope><scoped_administration>false</scoped_administration><short_description/><source>6b09c902db23230093a99d62ba9619ed</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 04:42:57</sys_created_on><sys_id>6b09c902db23230093a99d62ba9619ed</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 04:42:57</sys_updated_on><template/><trackable>true</trackable><user_role display_value="catalog_variable_creation_user" name="catalog_variable_creation_user">3b09c542db23230093a99d62ba9619ed</user_role><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>1011859136</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>be182946db63230093a99d62ba961906</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>Catalog Variable Creation</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>33090942972323008e0b789f2659eb26</update_guid>
+<update_guid_history>33090942972323008e0b789f2659eb26:1011859136</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_variable_creation_u_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_name" table="u_variable_creation"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=Name</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_name</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_variable_creation</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>2fcd0906db23230093a99d62ba961984</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Name</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_dictionary_u_variable_creation_u_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1522732790</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>be182946db63230093a99d62ba961908</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32ee0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>37cd090675232300fe59f0a96a6daa95</update_guid>
+<update_guid_history>37cd090675232300fe59f0a96a6daa95:-1522732790</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_09dec906db23230093a99d62ba961921</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="DELETE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value=""&gt;8eed8906db23230093a99d62ba961901&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_layout&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 05:08:10&lt;/sys_created_on&gt;&lt;sys_id&gt;09dec906db23230093a99d62ba961921&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_layout&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_09dec906db23230093a99d62ba961921&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 05:08:10&lt;/sys_updated_on&gt;&lt;target_field&gt;layout&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1776843263</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>be182946db63230093a99d62ba96190b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33e40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_layout</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>f2f6690697632300aaf0f163a7aabce5</update_guid>
+<update_guid_history>f2f6690697632300aaf0f163a7aabce5:-1776843263,0ddec90661232300a2384a075720ad22:-1093812932</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_map_8eed8906db23230093a99d62ba961901</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="DELETE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Variable Creation transform map&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 05:05:01&lt;/sys_created_on&gt;&lt;sys_id&gt;8eed8906db23230093a99d62ba961901&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Variable Creation transform map&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_8eed8906db23230093a99d62ba961901&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 05:05:01&lt;/sys_updated_on&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1259449669</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>be182946db63230093a99d62ba96190e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33b40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>Variable Creation transform map</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>f2f6690660632300a17314be74a64af5</update_guid>
+<update_guid_history>f2f6690660632300a17314be74a64af5:-1259449669,321ec906322323005b9325d92d6457fd:1674431279</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_variable_creation_u_layout_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_layout" label="Layout" language="en" table="u_variable_creation"><sys_documentation action="INSERT_OR_UPDATE"><element>u_layout</element><help/><hint/><label>Layout</label><language>en</language><name>u_variable_creation</name><plural>Layouts</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>a3cd0906db23230093a99d62ba961982</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Layout</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_documentation_u_variable_creation_u_layout_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1044873006</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>f2182946db63230093a99d62ba96190a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32b70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Layout</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_8ccfd9cedb23230093a99d62ba96197b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Variable or variable set transform map"&gt;7f8f59cedb23230093a99d62ba96198c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_variable_set&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 06:22:05&lt;/sys_created_on&gt;&lt;sys_id&gt;8ccfd9cedb23230093a99d62ba96197b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_variable_set&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_8ccfd9cedb23230093a99d62ba96197b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 06:22:05&lt;/sys_updated_on&gt;&lt;target_field&gt;variable_set&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1355484251</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>f2182946db63230093a99d62ba96190d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_variable_set</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>c8cfd9ce9c2323004a35e76be8b9dc7c</update_guid>
+<update_guid_history>c8cfd9ce9c2323004a35e76be8b9dc7c:1355484251</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_variable_creation_u_type</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_type" table="u_variable_creation"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=Type</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Type</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_type</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_variable_creation</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>23cd0906db23230093a99d62ba961981</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Type</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_dictionary_u_variable_creation_u_type</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1118217659</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>f6182946db63230093a99d62ba961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32d80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Type</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>37cd09062c232300180cfa95bd2b5991</update_guid>
+<update_guid_history>37cd09062c232300180cfa95bd2b5991:1118217659</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_44cfd9cedb23230093a99d62ba96197a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Variable or variable set transform map"&gt;7f8f59cedb23230093a99d62ba96198c&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_type&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 06:22:05&lt;/sys_created_on&gt;&lt;sys_id&gt;44cfd9cedb23230093a99d62ba96197a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_type&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_44cfd9cedb23230093a99d62ba96197a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 06:22:05&lt;/sys_updated_on&gt;&lt;target_field&gt;type&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1494274326</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>f6182946db63230093a99d62ba96190c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33a40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_type</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>80cfd9ce482323007d633492fe80ef7b</update_guid>
+<update_guid_history>80cfd9ce482323007d633492fe80ef7b:1494274326</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_63cd0906db23230093a99d62ba96198a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_variable_creation</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>63cd0906db23230093a99d62ba96198a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_variable_creation</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>ua_table_licensing_config_63cd0906db23230093a99d62ba96198a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>-567414193</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>f6182946db63230093a99d62ba96190f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32720000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_variable_creation</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>67cd090620232300a218dbe900ece68b</update_guid>
+<update_guid_history>67cd090620232300a218dbe900ece68b:-567414193</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_variable_creation_u_layout</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_layout" table="u_variable_creation"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=Layout</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Layout</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_layout</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_variable_creation</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>efcd0906db23230093a99d62ba961981</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Layout</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_dictionary_u_variable_creation_u_layout</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-72289397</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>fa182946db63230093a99d62ba961908</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f330e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Layout</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>37cd09064b23230028bbd256e8d26592</update_guid>
+<update_guid_history>37cd09064b23230028bbd256e8d26592:-72289397</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_01dec906db23230093a99d62ba961925</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="DELETE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value=""&gt;8eed8906db23230093a99d62ba961901&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_catalog_item&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 05:08:10&lt;/sys_created_on&gt;&lt;sys_id&gt;01dec906db23230093a99d62ba961925&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_catalog_item&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_01dec906db23230093a99d62ba961925&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 05:08:10&lt;/sys_updated_on&gt;&lt;target_field&gt;cat_item&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2083023661</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>fa182946db63230093a99d62ba96190b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33d10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_catalog_item</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>fef661c271632300da48642f67a14ebc</update_guid>
+<update_guid_history>fef661c271632300da48642f67a14ebc:2083023661,c9dec9066a232300fe39632b9d5f8325:130277160</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_map_7f8f59cedb23230093a99d62ba96198c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Variable or variable set transform map&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 06:22:00&lt;/sys_created_on&gt;&lt;sys_id&gt;7f8f59cedb23230093a99d62ba96198c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Variable or variable set transform map&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_7f8f59cedb23230093a99d62ba96198c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 06:22:57&lt;/sys_updated_on&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1976135714</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>fa182946db63230093a99d62ba96190e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33ac0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>Variable or variable set transform map</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>a4ff55cebb23230029e10326ced2b9ea</update_guid>
+<update_guid_history>a4ff55cebb23230029e10326ced2b9ea:-1976135714,eabf55ce9b232300f919881f5b7dd7af:139129215</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_63cdc506db23230093a99d62ba961967</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Variable Creation</label><live_feed_enabled>false</live_feed_enabled><name>u_variable_creation</name><number_ref/><provider_class/><read_access>true</read_access><super_class display_value="Import Set Row" name="sys_import_set_row">74fcb87765022300aadb05e0fb3edfe9</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>63cdc506db23230093a99d62ba961967</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Variable Creation</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_db_object_63cdc506db23230093a99d62ba961967</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-147144099</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>fe182946db63230093a99d62ba961907</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>33cd0906d92323006d198a6a3ea9948e</update_guid>
+<update_guid_history>33cd0906d92323006d198a6a3ea9948e:-147144099</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_variable_creation_u_type_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_type" label="Type" language="en" table="u_variable_creation"><sys_documentation action="INSERT_OR_UPDATE"><element>u_type</element><help/><hint/><label>Type</label><language>en</language><name>u_variable_creation</name><plural>Types</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-12 05:03:42</sys_created_on><sys_id>e3cd0906db23230093a99d62ba961981</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Type</sys_name><sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed">6b09c902db23230093a99d62ba9619ed</sys_package><sys_policy/><sys_scope display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</sys_scope><sys_update_name>sys_documentation_u_variable_creation_u_type_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-12 05:03:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2083015346</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>fe182946db63230093a99d62ba96190a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f32f60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table>u_variable_creation</table>
+<target_name>Variable Creation.Type</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Catalog Variable Creation">6b09c902db23230093a99d62ba9619ed</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_c5de8146db23230093a99d62ba9619d6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="DELETE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value=""&gt;8eed8906db23230093a99d62ba961901&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_order&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_variable_creation&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-12 05:08:10&lt;/sys_created_on&gt;&lt;sys_id&gt;c5de8146db23230093a99d62ba9619d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_order&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Variable Creation" source="6b09c902db23230093a99d62ba9619ed"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Variable Creation"&gt;6b09c902db23230093a99d62ba9619ed&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_c5de8146db23230093a99d62ba9619d6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-12 05:08:10&lt;/sys_updated_on&gt;&lt;target_field&gt;order&lt;/target_field&gt;&lt;target_table&gt;item_option_new&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1846773803</payload_hash>
+<remote_update_set display_value="Catalog Variable Creation">7a182946db63230093a99d62ba961906</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-12 06:58:36</sys_created_on>
+<sys_id>fe182946db63230093a99d62ba96190d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168e07f33dd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-12 06:58:36</sys_updated_on>
+<table/>
+<target_name>u_order</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>f2f66906076323005473ee705d668ff0</update_guid>
+<update_guid_history>f2f66906076323005473ee705d668ff0:1846773803,81de81467c23230089753ac95e8182d7:1650725584</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
